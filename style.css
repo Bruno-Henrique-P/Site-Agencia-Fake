@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    background:white;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.logo h1{
+    color: #180f4A;
+    font-size: 34px;
+    font-family: 'Lobster', cursive;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+
+}
+
+.menu a{
+    color: #180f4A; 
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color:#ff2978;
+    border-top:4px solid #180f4A;
+}
+
+#botao{
+    background:#180f4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background: #ff2978;
+}
+
+.container{
+    height: 500px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    color: #180f4A;
+    padding-top: 150px;
+
+}
+
+.container p{
+    width: 600px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #180f4A;
+}
+
+.container h2 {
+    font-size: 80px;
+    background: white;
+    margin-bottom: 0;
+    font-weight: 900px;
+    margin-top: 0;
+    letter-spacing: -3px;
+    color: #180f4A;
+}
+
+.header{
+    flex:40%;
+}
+
+.imge{
+    flex: 40%;
+    text-align: center;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+    padding:20px;
+    background: #ff2978;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.container a:hover{
+    background: #180f4A;
+
+}
+
+.container h3{
+    background: white;
+    margin: 0;
+    letter-spacing: 20px;
+    font-weight: bolder;
+}
+
+section{
+    margin-top: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+
+
+}
+.cardpai{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex: 20%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff2978;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.card img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 10px 50px;
+}
+
+.card h3{
+    font-weight: bolder;
+}
+
+#titulo-sec {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', bold;
+    font-size: 60px;
+}
+
+.hide{
+    background: #ff2978;
+    display: none;
+    flex: 20%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ff2978;
+    border-radius: 10px;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    height: 360px;
+    color: white;
+    text-align: center;
+}
+
+.card:hover .hide{
+    display:flex;
+    margin-top: 10px;
+}
+
+.card:hover .card{
+    display: none;
+}
+
+footer{
+    background-image: linear-gradient(black ,#180f4A);
+    height: 400px;
+    color: white;
+    text-align: center;
+    border-top: 4px solid #ff2978;
+    margin-top: 100px;
+}
+
+.logo2{
+    padding: 100px;
+}
+
+.logo2 h2{
+    font-family:'Lobster', bold; 
+    font-size: 34px;
+}
+
+.reser {
+   margin-top: 30px;
+   margin-bottom: 0;
+}
+
+
+.whats{
+    width: 50px;
+    height: 50px;
+    background: green;
+    z-index:999;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: flex-end;
+
+}

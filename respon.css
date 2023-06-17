@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1005px) {
+    .navbar{
+        position: relative;
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+    .container{
+        padding-top:40px;
+    }
+    header{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    header p {
+        text-align: center;
+    }
+
+    .imge{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
+    
